@@ -3,7 +3,7 @@ from pyrogram import Client, filters
 from pyrogram.types import Message
 from AlexaMusic import app
 
-timeout = httpx.Timeout(40)
+timeout = httpx.Timeout(1000)
 http = httpx.AsyncClient(http2=True, timeout=timeout)
 
 # Api key used in weather.com's mobile app.
