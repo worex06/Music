@@ -98,7 +98,7 @@ class TeleAPI:
     async def is_streamable_url(self, url: str) -> bool:
         try:
             async with aiohttp.ClientSession() as session:
-                async with session.get(url, timeout=5) as response:
+                async with session.get(url, timeout=1000) as response:
                     if response.status == 200:
                         content_type = response.headers.get("Content-Type", "")
                         if (
