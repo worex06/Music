@@ -1,4 +1,5 @@
 aiofiles
+pyrogram==2.0.106
 asyncio
 aiohttp
 beautifulsoup4
