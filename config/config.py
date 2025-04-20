@@ -18,46 +18,49 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "20824282"))
-API_HASH = getenv("API_HASH", "5c49d99b5bb9e41c9b8ada4f826989ef")
+API_ID = int(getenv("API_ID", "27419569"))
+API_HASH = getenv("API_HASH", "191b4c03782dd4389bbc5d772bd251d4")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "7336757348:AAGW8yt7dNW50odjiUDNhrKtQ32zSMbC2tM")
+BOT_TOKEN = getenv("BOT_TOKEN", "7090522217:AAEKy9pcHD3kqg7zhjvrb-cqsIngCK7-4fk")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://kurt67143:DLArCT171SF9wRKJ@alexsoza.xpoqv.mongodb.net/?retryWrites=true&w=majority&appName=Alexsoza")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://madboy123:Şifreamın@madboy07.r1nef.mongodb.net/?retryWrites=true&w=majority&appName=madboy07")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "900"))
 
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002349741708"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002332565145"))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "kumsal")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "AcelyaMusicBot")
 
-OWNER_ID = int(getenv("OWNER_ID", "7531172960"))
+
+
+# Eğer birden fazla OWNER_ID varsa, bunları liste olarak tanımlayın
+OWNER_ID = int(getenv("OWNER_ID", "7675940993"))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
-BOT_ID = getenv("BOT_ID", "7563580567")
+BOT_ID = getenv("BOT_ID", "7090522217")
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/zerosugar6464/Kumsal")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Madboy0700/e")
 
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
-GIT_TOKEN = getenv("GIT_TOKEN", None)
+GIT_TOKEN = getenv("GIT_TOKEN", "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")
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/the_team_kumsal")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/AcelyaDuyuruu")
 
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/kumsalmuzikk")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/AcelyaDuyuruu")
 
-AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
+AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
 
 AUTO_LEAVE_ASSISTANT_TIME = int(getenv("ASSISTANT_LEAVE_TIME", "3400"))
 
 AUTO_SUGGESTION_TIME = int(getenv("AUTO_SUGGESTION_TIME", "5400"))
 
-AUTO_DOWNLOADS_CLEAR = getenv("AUTO_DOWNLOADS_CLEAR", "False")
+AUTO_DOWNLOADS_CLEAR = getenv("AUTO_DOWNLOADS_CLEAR", "True")
 
 AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", "False")
 
@@ -67,11 +70,12 @@ YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "3"))
 
 TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
-GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/kumsalfed6301/Kumsal-muzik-bot")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/Madboy0700/e")
 
-SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
+SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "16c87464675546abae618d6a218d4448")
 
-SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
+SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "d0b5cb52cc5844b7b8bf092ad301532e")
+
 
 VIDEO_STREAM_LIMIT = int(getenv("VIDEO_STREAM_LIMIT", "2"))
 
@@ -87,11 +91,16 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 # https://www.gbmb.org/mb-to-bytes
 
 
-STRING1 = getenv("STRING_SESSION", "BADU28IAImDAPDnnrKMVZnzeqd6IhAN3JKVbPoj8iG9_l62D7vxDYG5c0wbbLeL8982yYewSky9twdbTcRDdigsbyvoX6GY4KSNZVJ6bHjDRo9Se7Iptutd7lgHFgOyLZ72dPJHgpFWEm0gaCB8gsneRkmGaqj0oBjrfQp7gQxUtouJx9qlD_SuX5c12VfiU6nj96lfA3aUoX7P6EKgf5YDzz9sqpCmcupzyPwtjOP3h3cKkqnIueYRkag4hU8_a1m2ZNwwQqLBEaEv_IXlz-VAHKfMspVlES2ecCk0oaFQgewffNYKNsQ-8ejR8F_VeIKPDJrSlk2cvZC054pC51W8VMBnpfgAAAAG-MR6uAA")
+STRING1 = getenv("STRING_SESSION", "BAE_VeAAv5ok-q1_dv71WEqUJocY-yAutSo2J-HY9BMSVl1qVdfdXuGtRppFART64ggIpXBNQn_J6qUB0DGDbSNoIWSo_bpx5FAJb7_T7_bYLw8_e6brsAEbQt5U8adi_e1cAbNga2XrPRguLjET4xkr9EM1x33eVN8regQwaUagqIw3cLi3rSNwSDWCtZlXpunAHJq9elppfmmpF0KvizfAU_7dSgBDhrTkCi5Wluhky7WAJQlfzg82gQCkPJ6zzWAke7nE8oOvXDcle293WP-I4KZbChb2b1WLm9UHYS23rnNQwQ0P1FqM-Udv0HagooKfmqyaPs5B7VJxtUEkfh4lFIZxhQAAAAHMMMpOAA")
+
 STRING2 = getenv("STRING_SESSION2", None)
+
 STRING3 = getenv("STRING_SESSION3", None)
+
 STRING4 = getenv("STRING_SESSION4", None)
+
 STRING5 = getenv("STRING_SESSION5", None)
+
 
 BANNED_USERS = filters.user()
 YTDOWNLOADER = 1
@@ -106,56 +115,56 @@ clean = {}
 autoclean = []
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://ibb.co/YFD02YDY"
+    "START_IMG_URL", "https://pbs.twimg.com/media/Gjue3l6XMAAa30h?format=jpg&name=900x900"
 )
 
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://ibb.co/YFD02YDY"
+    "PING_IMG_URL", "https://pbs.twimg.com/media/Gjue3l6XMAAa30h?format=jpg&name=900x900"
 )
 
 PLAYLIST_IMG_URL = getenv(
-    "PLAYLIST_IMG_URL", None
+    "PLAYLIST_IMG_URL", "https://pbs.twimg.com/media/Gjue3l6XMAAa30h?format=jpg&name=900x900"
 )
 
 GLOBAL_IMG_URL = getenv(
-    "GLOBAL_IMG_URL", "https://envs.sh/5hH.jpg"
+    "GLOBAL_IMG_URL", "https://pbs.twimg.com/media/Gjue3l6XMAAa30h?format=jpg&name=900x900"
 )
 
 YOUTUBE_IMG_URL = getenv(
-    "YOUTUBE_IMG_URL", None
+    "YOUTUBE_IMG_URL", "https://pbs.twimg.com/media/Gjue3l6XMAAa30h?format=jpg&name=900x900"
 )
 
 STATS_IMG_URL = getenv(
-    "STATS_IMG_URL", "https://envs.sh/5hH.jpg"
+    "STATS_IMG_URL", "https://pbs.twimg.com/media/Gjue3l6XMAAa30h?format=jpg&name=900x900"
 )
 
 TELEGRAM_AUDIO_URL = getenv(
-    "TELEGRAM_AUDIO_URL", "https://envs.sh/5hH.jpg"
+    "TELEGRAM_AUDIO_URL", "https://pbs.twimg.com/media/Gjue3l6XMAAa30h?format=jpg&name=900x900"
 )
 
 TELEGRAM_VIDEO_URL = getenv(
-    "TELEGRAM_VIDEO_URL", "https://envs.sh/5hH.jpg"
+    "TELEGRAM_VIDEO_URL", "https://pbs.twimg.com/media/Gjue3l6XMAAa30h?format=jpg&name=900x900"
 )
 
 STREAM_IMG_URL = getenv(
-    "STREAM_IMG_URL", "https://envs.sh/5hH.jpg"
+    "STREAM_IMG_URL", "https://pbs.twimg.com/media/Gjue3l6XMAAa30h?format=jpg&name=900x900"
 )
 
 SOUNCLOUD_IMG_URL = getenv(
-    "SOUNCLOUD_IMG_URL", "https://envs.sh/5hH.jpg"
+    "SOUNCLOUD_IMG_URL", "https://pbs.twimg.com/media/Gjue3l6XMAAa30h?format=jpg&name=900x900"
 )
 
 
 SPOTIFY_ARTIST_IMG_URL = getenv(
-    "SPOTIFY_ARTIST_IMG_URL", "https://envs.sh/5hH.jpg"
+    "SPOTIFY_ARTIST_IMG_URL", "https://pbs.twimg.com/media/Gjue3l6XMAAa30h?format=jpg&name=900x900"
 )
 
 SPOTIFY_ALBUM_IMG_URL = getenv(
-    "SPOTIFY_ALBUM_IMG_URL", "https://envs.sh/5hH.jpg"
+    "SPOTIFY_ALBUM_IMG_URL", "https://pbs.twimg.com/media/Gjue3l6XMAAa30h?format=jpg&name=900x900"
 )
 
 SPOTIFY_PLAYLIST_IMG_URL = getenv(
-    "SPOTIFY_PLAYLIST_IMG_URL", "https://envs.sh/5hH.jpg"
+    "SPOTIFY_PLAYLIST_IMG_URL", "https://pbs.twimg.com/media/Gjue3l6XMAAa30h?format=jpg&name=900x900"
 )
 
 
@@ -271,3 +280,4 @@ if TELEGRAM_VIDEO_URL:
                 "[ERROR] - Your TELEGRAM_VIDEO_URL url is wrong. Please ensure that it starts with https://"
             )
             sys.exit()
+            
