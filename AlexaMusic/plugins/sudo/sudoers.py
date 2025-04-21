@@ -1,15 +1,3 @@
-# Copyright (C) 2024 by Alexa_Help @ Github, < https://github.com/TheTeamAlexa >
-# Subscribe On YT < Jankari Ki Duniya >. All rights reserved. © Alexa © Yukki.
-
-""""
-TheTeamAlexa is a project of Telegram bots with variety of purposes.
-Copyright (c) 2024 -present Team=Alexa <https://github.com/TheTeamAlexa>
-
-This program is free software: you can redistribute it and can modify
-as you want or you can collabe if you have new ideas.
-"""
-
-
 from pyrogram import filters
 from pyrogram.types import Message
 
@@ -85,7 +73,7 @@ async def userdel(client, message: Message, _):
             SUDOERS.remove(user.id)
             await message.reply_text(_["sudo_4"])
             return
-        await message.reply_text(f"Something wrong happened.")
+        await message.reply_text("Something went wrong.")
         return
     user_id = message.reply_to_message.from_user.id
     if user_id not in SUDOERS:
@@ -95,12 +83,16 @@ async def userdel(client, message: Message, _):
         SUDOERS.remove(user_id)
         await message.reply_text(_["sudo_4"])
         return
-    await message.reply_text(f"sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ ᴡʀᴏɴɢ.")
+    await message.reply_text("Something went wrong.")
 
 
 @app.on_message(filters.command(SUDOUSERS_COMMAND) & ~BANNED_USERS)
 @language
 async def sudoers_list(client, message: Message, _):
+    # Sudo kullanıcılarını listeleme işlemi
+    if message.from_user.id not in SUDOERS and message.from_user.id != OWNER_ID:
+        return await message.reply_text("Bu komutu kullanma izniniz yok.")
+
     text = _["sudo_5"]
     user = await app.get_users(OWNER_ID)
     user = user.first_name if not user.mention else user.mention
@@ -108,7 +100,7 @@ async def sudoers_list(client, message: Message, _):
     count = 0
     smex = 0
     for user_id in SUDOERS:
-        if user_id not in OWNER_ID:
+        if user_id != OWNER_ID:  # OWNER_ID'yi kontrol et
             try:
                 user = await app.get_users(user_id)
                 user = user.first_name if not user.mention else user.mention
@@ -119,7 +111,7 @@ async def sudoers_list(client, message: Message, _):
                 text += f"{count}➤ {user}\n"
             except Exception:
                 continue
-    if not text:
+    if count == 0:
         await message.reply_text(_["sudo_7"])
     else:
         await message.reply_text(text)
