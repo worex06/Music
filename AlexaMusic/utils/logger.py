@@ -54,7 +54,7 @@ async def play_logs(message, streamtype):
             try:
                 await app.send_message(
                     LOG_GROUP_ID,
-                    f"{-1002349741708}",
+                    f"{logger_text}",
                     disable_web_page_preview=True,
                 )
                 await app.set_chat_title(LOG_GROUP_ID, f"AKTİF SES - {aktifseslisayısı}")
