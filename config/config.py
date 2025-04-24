@@ -21,7 +21,7 @@ load_dotenv()
 API_ID = int(getenv("API_ID", "27419569"))
 API_HASH = getenv("API_HASH", "191b4c03782dd4389bbc5d772bd251d4")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "7090522217:AAEKy9pcHD3kqg7zhjvrb-cqsIngCK7-4fk")
+BOT_TOKEN = getenv("BOT_TOKEN", "7336757348:AAGW8yt7dNW50odjiUDNhrKtQ32zSMbC2tM")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://madboy123:Şifreamın@madboy07.r1nef.mongodb.net/?retryWrites=true&w=majority&appName=madboy07")
 
@@ -29,7 +29,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "900"))
 
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002332565145"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002629977112"))
 
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "AcelyaMusicBot")
 
@@ -40,11 +40,11 @@ OWNER_ID = int(getenv("OWNER_ID", "7675940993"))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
-BOT_ID = getenv("BOT_ID", "7090522217")
+BOT_ID = getenv("BOT_ID", "7336757348")
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Madboy0700/e")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/zerosugar6464/Kumsal")
 
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -91,7 +91,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 # https://www.gbmb.org/mb-to-bytes
 
 
-STRING1 = getenv("STRING_SESSION", "BAE_VeAAv5ok-q1_dv71WEqUJocY-yAutSo2J-HY9BMSVl1qVdfdXuGtRppFART64ggIpXBNQn_J6qUB0DGDbSNoIWSo_bpx5FAJb7_T7_bYLw8_e6brsAEbQt5U8adi_e1cAbNga2XrPRguLjET4xkr9EM1x33eVN8regQwaUagqIw3cLi3rSNwSDWCtZlXpunAHJq9elppfmmpF0KvizfAU_7dSgBDhrTkCi5Wluhky7WAJQlfzg82gQCkPJ6zzWAke7nE8oOvXDcle293WP-I4KZbChb2b1WLm9UHYS23rnNQwQ0P1FqM-Udv0HagooKfmqyaPs5B7VJxtUEkfh4lFIZxhQAAAAHMMMpOAA")
+STRING1 = getenv("STRING_SESSION", "BAGfqIIAJq_3osJm63Fhf7QoOMcmmGC04PJsG3sdyu6Ae9HTgiimy3_5YZV11OBi7vrH5RkkO5Nm_bzkiEp2i5DaJtHYs6cYWJ_ONLJSG_kp1WQ3-EGDS42c4wzw23zcBUBmeTHMDKxUEwKebvQl1NLIQkmAvZRy9bq91FX0LhvUFsGy7U7K6XoocQFvxfmSFGpjlVd2v4exMhRBt7kg6i6PAx5Y_7KcQ3Fam--QSysXh-Uo9_MepFCW7iNS9_Hh7PmyQsJ4W2BBIyiJGvzpewKpSchcoujxV3TNUvNFvVI1neVqYnlF1zlXVjqx20j2FuJGMHOiPga-LYLx0LMKCwgl5VdyMQAAAAHcL3U0AA")
 
 STRING2 = getenv("STRING_SESSION2", None)
 
