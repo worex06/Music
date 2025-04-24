@@ -12,7 +12,6 @@ as you want or you can collabe if you have new ideas.
 import socket
 import time
 
-import heroku3
 from pyrogram import filters
 
 import config
