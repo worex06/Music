@@ -21,26 +21,26 @@ load_dotenv()
 API_ID = int(getenv("API_ID", "27419569"))
 API_HASH = getenv("API_HASH", "191b4c03782dd4389bbc5d772bd251d4")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "7336757348:AAGW8yt7dNW50odjiUDNhrKtQ32zSMbC2tM")
+BOT_TOKEN = getenv("BOT_TOKEN", "7164261117:AAGX-f--xF8Q6wKa6yDyXObmbB-6kBb-Y1Y")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://madboy123:Şifreamın@madboy07.r1nef.mongodb.net/?retryWrites=true&w=majority&appName=madboy07")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://kurt67143:DLArCT171SF9wRKJ@alexsoza.xpoqv.mongodb.net/?retryWrites=true&w=majority&appName=Alexsoza")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "900"))
 
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002629977112"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002349741708"))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "AcelyaMusicBot")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Kumsal Music bot")
 
 
 
 # Eğer birden fazla OWNER_ID varsa, bunları liste olarak tanımlayın
-OWNER_ID = int(getenv("OWNER_ID", "7675940993"))
+OWNER_ID = int(getenv("OWNER_ID", "7989065012"))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
-BOT_ID = getenv("BOT_ID", "7336757348")
+BOT_ID = getenv("BOT_ID", "7164261117")
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
@@ -50,9 +50,9 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/AcelyaDuyuruu")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/the_team_kumsal")
 
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/AcelyaDuyuruu")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/the_team_kumsal")
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
 
@@ -91,7 +91,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 # https://www.gbmb.org/mb-to-bytes
 
 
-STRING1 = getenv("STRING_SESSION", "BAGfqIIAJq_3osJm63Fhf7QoOMcmmGC04PJsG3sdyu6Ae9HTgiimy3_5YZV11OBi7vrH5RkkO5Nm_bzkiEp2i5DaJtHYs6cYWJ_ONLJSG_kp1WQ3-EGDS42c4wzw23zcBUBmeTHMDKxUEwKebvQl1NLIQkmAvZRy9bq91FX0LhvUFsGy7U7K6XoocQFvxfmSFGpjlVd2v4exMhRBt7kg6i6PAx5Y_7KcQ3Fam--QSysXh-Uo9_MepFCW7iNS9_Hh7PmyQsJ4W2BBIyiJGvzpewKpSchcoujxV3TNUvNFvVI1neVqYnlF1zlXVjqx20j2FuJGMHOiPga-LYLx0LMKCwgl5VdyMQAAAAHcL3U0AA")
+STRING1 = getenv("STRING_SESSION", "BAE9wNoAj7E-AL4hTKl1_ylhuXiF2YGgH2c_7_SghpBHDzvPVJuCQ9kkiZlhWSvFW1kPmklEdzzbhtetQpYckfiZvxbWXSy6lQCxn5PDS7zdEQNb8Zy1hEI4Q4ugez9wWBHBGqa87TMgFzIeNgM_QaYshceG--WkeJT3M0H66h0-n2lo7KE_bqp1OVLKpZxrcpOSj4ayxzYE1ejuMHqpljCTiXe0aapRBywAk8WazkaYvnknWu96kwRQSi6tl20KGZ8Mhv_Lk17qjS3x9c6PSfChIR0Qldh0ThrxcqI3FuAJzQX5OuS1nwI_UHKkjD2E8-fQjdngHl_IgVrgXCBnuSRsUbuz-AAAAAHA5JRgAA)
 
 STRING2 = getenv("STRING_SESSION2", None)
 
