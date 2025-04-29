@@ -2,8 +2,8 @@ import asyncio
 import shlex
 from typing import Tuple
 
-from git import Repo
-from git.exc import GitCommandError, InvalidGitRepositoryError
+# from git import Repo
+# from git.exc import GitCommandError, # InvalidGitRepositoryError
 
 import config
 
