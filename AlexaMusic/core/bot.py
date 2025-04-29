@@ -39,7 +39,7 @@ class AlexaBot(Client):
         self.mention = get_me.mention
         try:
             await self.send_message(
-                config.LOG_GROUP_ID, "» Mehmet kullanılmaya mahkümdur..."
+                config.LOG_GROUP_ID, "» Ne mutlu Türküm diyene 🇹🇷..."
             )
         except:
             LOGGER(__name__).error(
