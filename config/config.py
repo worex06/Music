@@ -32,24 +32,24 @@ SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
 LOG = True  # veya False
 LOG_GROUP_ID = -1001903631091 # Telegram grup ID'si
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Kumsal Music bot")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "TURAN MÜZİK")
 
 
 
 # Eğer birden fazla OWNER_ID varsa, bunları liste olarak tanımlayın
-OWNER_ID = int(getenv("OWNER_ID", ""))
+OWNER_ID = int(getenv("OWNER_ID", "8119547604"))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
-BOT_ID = getenv("BOT_ID", "")
+BOT_ID = getenv("BOT_ID", "7703499597")
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/ramowlf/turan")
 
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
-GIT_TOKEN = getenv("GIT_TOKEN", "")
+GIT_TOKEN = getenv("GIT_TOKEN", "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")
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/TurkUserBotKanali")
 
