@@ -1,88 +1,82 @@
 HELP_1 = """<b><u>ᴀᴅᴍɪɴ ᴋᴏᴍᴜᴛʟᴀʀı :</b></u>
-╔─━━━━░...𝚂𝙸𝙻𝙰 𝙼𝚄𝚉𝙸𝙺....░━━━─╗
-╰☞ /durdur /pause - Akışı duraklatır.
-╰☞ /devam /resume - Akışı devam ettirir.
-╰☞ /son - /end - Akışı Sonlandırır.
-╰☞ /atla /skip - Diğer parça ya atlar.
-╰☞ /ileri - Oynatılan parçayı ileri alır.
-╰☞ /gerial - Oynatılan parçayı geri alır.
-╰☞ /karistir /suffle- Sıraya alınan Parçaları karışık oynatır.
-╰☞ /tekrarla /loop - oynatılan parçayı istediğiniz kadar tekrar eder.
-╰☞ /reload - Admin Önbelleğini yeniler.
-/reboot - Botu yeniden başlatır.
+╔─━━━━░...𝚃𝚄𝚁𝙰𝙽 𝙼𝚄𝚉𝙸𝙺 🇹🇷....░━━━─╗
+╰☞ 🔇 /durdur /pause - Akışı duraklatır.
+╰☞ ▶️ /devam /resume - Akışı devam ettirir.
+╰☞ 🛑 /son - /end - Akışı sonlandırır.
+╰☞ ⏭️ /atla /skip - Diğer parçaya atlar.
+╰☞ ⏩ /ileri - Oynatılan parçayı ileri alır.
+╰☞ ⏪ /gerial - Oynatılan parçayı geri alır.
+╰☞ 🔀 /karistir /suffle - Sıradaki parçaları karışık oynatır.
+╰☞ 🔁 /tekrarla /loop - Oynatılan parçayı tekrar eder.
+╰☞ ♻️ /reload - Admin önbelleğini yeniler.
+⚙️ /reboot - Botu yeniden başlatır.
 ────┈┈┈┄┄╌╌╌╌┄┄────┈┈┈┄┄╌╌╌╌┈┈┈────
 """
 
+HELP_2 = """<b><u>ᴋᴏᴍᴜᴛʟᴀʀ :</b></u>
 
-HELP_2 = """<b><u>command:</b></u>
+╔─━━━░...𝚃𝚄𝚁𝙰𝙽 𝙼𝚄𝚉𝙸𝙺 🇹🇷....░━━━─╗
 
-╔─━━━░...𝚂𝙸𝙻𝙰 𝙼𝚄𝚉𝙸𝙺....░━━━─╗
+▪️ 🎥 /voynat - Video oynatır.  
+▪️ 🎶 /oynat /voynat /play /vplay - Şarkı veya video oynatımı başlatır.  
 
-
-▪️ /voynat - Video Oynatır.
-/oynat /voynat /play - /vplay 
-
-♨️🔸 /oynat komutu aynı zamanda canlı yayında destekler.(örnek: /oynat kralfm canlı)
-/playforce ᴏʀ /vplayforce : Sesli sohbette çalınan parçayı durdurur ve sırayı bozmadan temizlemeden aranan parçayı anında çalmaya başlar.
-
-örnek /oynat taladro dem
-
-•─────────────────────────────────•
+🗒️ Daha fazla komut için yardım menüsünü kullanabilirsiniz!
+────┈┈┈┄┄╌╌╌╌┄┄────┈┈┈┄┄╌╌╌╌┈┈┈────
 """
 
-HELP_3 = """<b><u>komut:</b></u>
+HELP_3 = """<b><u>🎶 ᴋᴏᴍᴜᴛʟᴀʀ :</b></u>
 
-╔─━━━░...𝚂𝙸𝙻𝙰 𝙼𝚄𝚉𝙸𝙺....░━━━─╗
+╔─━━━░...𝚃𝚄𝚁𝙰𝙽 𝙼𝚄𝚉𝙸𝙺 🇹🇷....░━━━─╗
 
-/indir-  - /indir [sᴏɴɢ ɴᴀᴍᴇ/ʏᴛ ᴜʀʟ] : ɪsᴛᴇᴅɪɢ̆ɪɴɪᴢ şᴀʀᴋıʏı ᴍᴘ𝟹 ᴏʟᴀʀᴀᴋ ɪɴᴅɪʀɪʀ.
+🎵 /indir [şarkı adı/YouTube linki] - İstediğiniz şarkıyı MP3 olarak indirir.
 
-/ileri [ᴅᴜʀᴀᴛɪᴏɴ ɪɴ sᴇᴄᴏɴᴅs] : şᴀʀᴋıʏı ʙᴇʟɪʀʟᴇᴅɪɢ̆ɪɴɪᴢ sᴜ̈ʀᴇ ᴋᴀᴅᴀʀ ɪʟᴇʀɪ ᴀʟıʀ 
+⏩ /ileri [saniye] - Şarkıyı belirttiğiniz süre kadar ileri alır.
 
-/kariştir - /shuffle : Sıradaki parçaları karışık oynatır.
+🔀 /karistir - /shuffle - Sıradaki parçaları karışık oynatır.
 
-/tekrar - /loop [1, 2, 3, ...] : ɢɪʀᴅɪɢ̆ɪɴɪᴢ ʀᴀᴋᴀᴍ ᴋᴀᴅᴀʀ ᴘᴀʀᴄ̧ᴀ ᴛᴇʀᴋᴀʀʟᴀɴıʀ
+🔁 /tekrar - /loop [1, 2, 3, ...] - Girilen rakam kadar parçayı tekrarlar.
 
-/speed or /playback : ɢʀᴜᴘᴛᴀ sᴇsʟɪᴅᴇ ᴄ̧ᴀʟᴀɴ şᴀʀᴋıʏı ʜıᴢʟᴀɴᴅıʀıʀ.
-
-╰──────────────╮•╭─────────────╯
+🧠 /speed or /playback : Sesli sohbette olan müziği hızlandırır
 """
+
 HELP_4 = """<b><u> eğlenceli komutlar:</b></u>
 
-╔─━━━░...𝚂𝙸𝙻𝙰 𝙼𝚄𝚉𝙸𝙺....░━━━─╗
+╔─━━━░...𝚃𝚄𝚁𝙰𝙽 𝙼𝚄𝚉𝙸𝙺 🇹🇷.....░━━━─╗
 
-❤️‍🔥  /eros | eros  –  Eros oku atar.
+❤️‍🔥  /eros | eros  –  💘 Aşkı ve tutkunun simgesi, Eros oku atar. Hazır mısın? 
 
-📝  /burc  –  Burçlarınızı yorumlarım.
+📝  /burc  –  🔮 Burçlarınıza dair gizemli yorumlar yaparım, yıldızlar ne diyor?
 
-✨ /mani  –  Mani söylerim.
+✨ /mani  –  🌟 Bir mani söylerim, ruhunuza dokunsun.
 
-👋  /slap  –  Birini tokatlayın.
+👋  /slap  –  💥 Birini tokatlayın, ama dikkat! Şaka yapıyoruz.
 
-🎲  /zar  –  Rastgele bir zar atın.
+🎲  /zar  –  🎲 Şansınızı test edin, rastgele zar atın!
 
-🎯  /dart  –  Dart atar.
+🎯  /dart  –  🎯 Hedefi bulmak kolay mı? Dart atın ve görün!
 
-🎰  /slot  –  Şans slot'u çevirir.
+🎰  /slot  –  🍀 Şans slot'u çevirin, büyük ödül size mi geliyor?
 
-⚽️  /futbol  –  Kaleye top atar.
+⚽️  /futbol  –  ⚽️ Kaleye top atın ve gol yapın! Futbol zamanı!
 
-🎳  /bowling  –  Bowling atar.
+🎳  /bowling  –  🎳 Bir bowling topu gönderin ve pinleri devirin.
 
-🪙  /para  –  Rastgele bir para atın.
+🪙  /para  –  🪙 Rastgele bir para atın, acaba ne taraf gelir?
 
-👋  /slap  –  Birini tokatlayın.
+👋  /slap  –  💫 Birini tokatlayın, ama unutmayın! Eğlence her şeydir.
 
-🤣  /saka  –  Rastgele bir şaka gönderin.
+🤣  /saka  –  😜 Bir şaka gönderin, gülmeye hazır olun!
 
-📜  /soz  –  Rastgele bir söz gönderin. 
+📜  /soz  –  📝 Duygusal bir söz gönderin, kalbinize hitap etsin.
 
-📢  /tts  –  Bir metni sese çevirir.
+📢  /tts  –  🎙️ Bir metni sese çevirin, yazdığınız her şey bir melodiye dönüşsün!
+
 ◇──────────────────────────◇
 """
 
 
 HELP_7 = """<b><u>etiket komutlar :</b></u>
-╔─━━━░...𝚂𝙸𝙻𝙰 𝙼𝚄𝚉𝙸𝙺....░━━━─╗
+╔─━━━░...𝚃𝚄𝚁𝙰𝙽 𝙼𝚄𝚉𝙸𝙺 🇹🇷.....░━━━─╗
 
 
 🏷️ /tag - Tek tek etiketler.
