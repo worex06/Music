@@ -1,6 +1,10 @@
-AlexaMusic/core/bot.py
 
-import asyncio from ..logging import LOGGER
+import sys
+
+from pyrogram import Client
+import config
+from ..logging import LOGGER
+from pyrogram.enums import ChatMemberStatus
 
 class AlexaBot: def init(self): self.name = "Alexa" self.running = False
 
