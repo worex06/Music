@@ -18,18 +18,18 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
+API_ID = int(getenv("API_ID", "20824282"))
+API_HASH = getenv("API_HASH", "5c49d99b5bb9e41c9b8ada4f826989ef")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "7164261117:AAGPu08txRaqVmnoGXGvED8eYhCm1zJGT1Q")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://kurt67143:DLArCT171SF9wRKJ@alexsoza.xpoqv.mongodb.net/?retryWrites=true&w=majority&appName=Alexsoza")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "900"))
 
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002629977112"))
 
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Kumsal Music bot")
 
@@ -91,7 +91,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 # https://www.gbmb.org/mb-to-bytes
 
 
-STRING1 = getenv("STRING_SESSION", "")
+STRING1 = getenv("STRING_SESSION", "BAG5o-oAZxG-VOwRP6uzjgZ5_Ou5TpAUZuDGCfd9-91mkPfRe1RhnH-v16ey9c0ZKTpLsjVFrbF2mRiswMXeFDuxaWoq4zf29ymMJj0Y-uHjedGiKY6r1vGzz59wAr-VuQNSLEgKUDh_ziDFTetEau1T0Kp4qf1rDloO-KqgDrQDFYioX-VsWZv283M7Z0gSD_yXoLn_Otd7huargXZy1nnV5itn9KMg3_BXU6DCbOClYM02e4xzDvwC0xbsU69Zvw0vVOjtWWVwAmOmydqJwrp_HQuthKWmWqlV5g2jF8Cn88k64JpJXt0STuTVbmmySSMWbZbYJttR6c8ippAZxEZn-fpp8wAAAAHFpFfmAA")
 STRING2 = getenv("STRING_SESSION2", None)
 
 STRING3 = getenv("STRING_SESSION3", None)
