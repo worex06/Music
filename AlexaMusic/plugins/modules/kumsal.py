@@ -63,7 +63,7 @@ Aynur = (
 )
 
 sahip = (
-"@candyy_king **Sana sesleniyorlarr**",
+"@ramowlf **Sana sesleniyorlarr**",
 "**Adamdır** 🌹",
 "**Adamımmmm**",
 "**Sahibime mi sesleniyorsun?**",
@@ -82,12 +82,12 @@ naber = (
 )
 
 
-pelin = (
-"**o kim**",
-"**benim adım pelin değil**",
-"**benim adım kumsal** ❤️‍🔥",
-"**güzel mi bari ❤️**",
-"**pelini rahat bırakın yaww**",	
+ramowlf = (
+"**o bir bot geliştiricisi @ramowlf**",
+"**Ülkücü sahibim gel @ramowlf**",
+"**🩵 Geliştirici** @ramowlf",
+"**Sahibim @ramowlf 🇹🇷**",
+"**ramazan Öztürk sahibim @ramowlf**",	
 )
 
 nasılsın = (
@@ -595,16 +595,6 @@ küsme = (
 "**Peki küsmem**",
 "**Yok küstüm**",
 "**Banane**",
-)
-
-kumsal = (
-"**@candyy_king Buyur Çağırdım Gelir şimdi.**",
-"**güzel insan ❤️**",
-"**yüreği yeter 🤗**",
-"**zeki adamdır ** 😂",
-"**@kumsalmuzikk @kumsalmuzikbot Sahibidir.**",
-"**Patron Senin ismin Geçiyor @candyy__king**",
-"**@candyy_king**",
 )
 
 nerelisin = (
