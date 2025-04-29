@@ -10,48 +10,75 @@ as you want or you can collabe if you have new ideas.
 """
 
 
-import sys
+import asyncio
+import shlex
+from typing import Tuple
 
-from pyrogram import Client
+from git import Repo
+from git.exc import GitCommandError, InvalidGitRepositoryError
+
 import config
+
 from ..logging import LOGGER
-from pyrogram.enums import ChatMemberStatus
 
 
-class AlexaBot(Client):
-    def __init__(self):
-        super().__init__(
-            "MusicBot",
-            api_id=config.API_ID,
-            api_hash=config.API_HASH,
-            bot_token=config.BOT_TOKEN,
-            sleep_threshold=180,
-            max_concurrent_transmissions=4,
-            workers=50,
-        )
-        LOGGER(__name__).info(f"Starting Bot...")
+async def install_req(cmd: str) -> Tuple[str, str, int, int]:
+    args = shlex.split(cmd)
+    process = await asyncio.create_subprocess_exec(
+        *args,
+        stdout=asyncio.subprocess.PIPE,
+        stderr=asyncio.subprocess.PIPE,
+    )
+    stdout, stderr = await process.communicate()
+    return (
+        stdout.decode("utf-8", "replace").strip(),
+        stderr.decode("utf-8", "replace").strip(),
+        process.returncode,
+        process.pid,
+    )
 
-    async def start(self):
-        await super().start()
-        get_me = await self.get_me()
-        self.username = get_me.username
-        self.id = get_me.id
-        self.mention = get_me.mention
-        try:
-            await self.send_message(
-                config.LOG_GROUP_ID, "» Mehmet kullanılmaya mahkümdur..."
-            )
-        except:
-            LOGGER(__name__).error(
-                "Bot has failed to access the log Group. Make sure that you have added your bot to your log channel and promoted as admin!"
-            )
-            sys.exit()
-        a = await self.get_chat_member(config.LOG_GROUP_ID, self.id)
-        if a.status != ChatMemberStatus.ADMINISTRATOR:
-            LOGGER(__name__).error("Please promote Bot as Admin in Logger Group")
-            sys.exit()
-        if get_me.last_name:
-            self.name = get_me.first_name + " " + get_me.last_name
+
+async def git():
+    REPO_LINK = config.UPSTREAM_REPO
+    if config.GIT_TOKEN:
+        GIT_USERNAME = REPO_LINK.split("com/")[1].split("/")[0]
+        TEMP_REPO = REPO_LINK.split("https://")[1]
+        UPSTREAM_REPO = f"https://{GIT_USERNAME}:{config.GIT_TOKEN}@{TEMP_REPO}"
+    else:
+        UPSTREAM_REPO = config.UPSTREAM_REPO
+
+    try:
+        repo = Repo()
+        LOGGER(__name__).info(f"Git Client Found [VPS DEPLOYER]")
+    except GitCommandError:
+        LOGGER(__name__).error(f"Invalid Git Command")
+        return
+    except InvalidGitRepositoryError:
+        repo = Repo.init()
+        if "origin" in repo.remotes:
+            origin = repo.remote("origin")
         else:
-            self.name = get_me.first_name
-        LOGGER(__name__).info(f"MusicBot Started as {self.name}")
+            origin = repo.create_remote("origin", UPSTREAM_REPO)
+        
+        origin.fetch()
+        repo.create_head(
+            config.UPSTREAM_BRANCH,
+            origin.refs[config.UPSTREAM_BRANCH],
+        )
+        repo.heads[config.UPSTREAM_BRANCH].set_tracking_branch(
+            origin.refs[config.UPSTREAM_BRANCH]
+        )
+        repo.heads[config.UPSTREAM_BRANCH].checkout(True)
+        try:
+            repo.create_remote("origin", config.UPSTREAM_REPO)
+        except BaseException:
+            pass
+        nrs = repo.remote("origin")
+        nrs.fetch(config.UPSTREAM_BRANCH)
+        try:
+            nrs.pull(config.UPSTREAM_BRANCH)
+        except GitCommandError:
+            repo.git.reset("--hard", "FETCH_HEAD")
+        
+        await install_req("pip3 install --no-cache-dir -r requirements.txt")
+        LOGGER(__name__).info(f"Fetched Updates from: {REPO_LINK}")
