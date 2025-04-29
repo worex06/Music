@@ -18,10 +18,10 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
+API_ID = int(getenv("API_ID", "24127278"))
+API_HASH = getenv("API_HASH", "ad3ac8bc4d7f5c9b9b650588a2411d2e")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "7703499597:AAEQiDSQpJ2jzt1Mx1IIr941yBiVHzF2Y28")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 
@@ -30,7 +30,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "900"))
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
 
 LOG = True  # veya False
-LOG_GROUP_ID = -1001234567890  # Telegram grup ID'si
+LOG_GROUP_ID = -1001903631091 # Telegram grup ID'si
 
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Kumsal Music bot")
 
@@ -51,9 +51,9 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
 GIT_TOKEN = getenv("GIT_TOKEN", "")
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/the_team_kumsal")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/TurkUserBotKanali")
 
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/the_team_kumsal")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/TurkUserBotKanali")
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
 
@@ -71,7 +71,7 @@ YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "3"))
 
 TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
-GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/Madboy0700/e")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/ramowlf/turan")
 
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "16c87464675546abae618d6a218d4448")
 
@@ -92,7 +92,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 # https://www.gbmb.org/mb-to-bytes
 
 
-STRING1 = getenv("STRING_SESSION", "")
+STRING1 = getenv("STRING_SESSION", "BAFwJy4AP0X_KtDam6AWj9HUoj76NyZuOlOGFul7gRc6VjXpTFEyAmMiee1Z5sayzP_c1jOgtgB9h1d6dfRdvcImXbgWvmrD_-WZidOzoGhU3pCXDeCFgqaeOmMXTO6W-HnKI896aDelLxIWV-mtedqUWv4L1RRVB8bJ0VQI8U-iDH123wQbfynE9nAEnIYx_JQRhreF8N_Qxj4_khugourtEPSr6nqaDDZkEm4cbZNOkF-lzSIJoZ9YKUmcvUf3LGeidn1VFopwnn5lo4QAC6KNLzShqHM-lwra1Yy7GCuT77W7SS6_8GBONjAysTnAByXr1_mGdzTEt_Gk0E8jUSvmio9V8gAAAAFv_XsgAA")
 STRING2 = getenv("STRING_SESSION2", None)
 
 STRING3 = getenv("STRING_SESSION3", None)
@@ -115,27 +115,27 @@ clean = {}
 autoclean = []
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://pbs.twimg.com/media/Gjue3l6XMAAa30h?format=jpg&name=900x900"
+    "START_IMG_URL", "https://i.hizliresim.com/hyjkuec.jpg"
 )
 
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://pbs.twimg.com/media/Gjue3l6XMAAa30h?format=jpg&name=900x900"
+    "PING_IMG_URL", "https://i.hizliresim.com/hyjkuec.jpg"
 )
 
 PLAYLIST_IMG_URL = getenv(
-    "PLAYLIST_IMG_URL", "https://pbs.twimg.com/media/Gjue3l6XMAAa30h?format=jpg&name=900x900"
+    "PLAYLIST_IMG_URL", "https://i.hizliresim.com/hyjkuec.jpg"
 )
 
 GLOBAL_IMG_URL = getenv(
-    "GLOBAL_IMG_URL", "https://pbs.twimg.com/media/Gjue3l6XMAAa30h?format=jpg&name=900x900"
+    "GLOBAL_IMG_URL", "https://i.hizliresim.com/hyjkuec.jpg"
 )
 
 YOUTUBE_IMG_URL = getenv(
-    "YOUTUBE_IMG_URL", "https://pbs.twimg.com/media/Gjue3l6XMAAa30h?format=jpg&name=900x900"
+    "YOUTUBE_IMG_URL", "https://i.hizliresim.com/hyjkuec.jpg"
 )
 
 STATS_IMG_URL = getenv(
-    "STATS_IMG_URL", "https://pbs.twimg.com/media/Gjue3l6XMAAa30h?format=jpg&name=900x900"
+    "STATS_IMG_URL", "https://i.hizliresim.com/hyjkuec.jpg"
 )
 
 TELEGRAM_AUDIO_URL = getenv(
@@ -143,28 +143,28 @@ TELEGRAM_AUDIO_URL = getenv(
 )
 
 TELEGRAM_VIDEO_URL = getenv(
-    "TELEGRAM_VIDEO_URL", "https://pbs.twimg.com/media/Gjue3l6XMAAa30h?format=jpg&name=900x900"
+    "TELEGRAM_VIDEO_URL", "https://i.hizliresim.com/hyjkuec.jpg"
 )
 
 STREAM_IMG_URL = getenv(
-    "STREAM_IMG_URL", "https://pbs.twimg.com/media/Gjue3l6XMAAa30h?format=jpg&name=900x900"
+    "STREAM_IMG_URL", "https://i.hizliresim.com/hyjkuec.jpg"
 )
 
 SOUNCLOUD_IMG_URL = getenv(
-    "SOUNCLOUD_IMG_URL", "https://pbs.twimg.com/media/Gjue3l6XMAAa30h?format=jpg&name=900x900"
+    "SOUNCLOUD_IMG_URL", "https://i.hizliresim.com/hyjkuec.jpg"
 )
 
 
 SPOTIFY_ARTIST_IMG_URL = getenv(
-    "SPOTIFY_ARTIST_IMG_URL", "https://pbs.twimg.com/media/Gjue3l6XMAAa30h?format=jpg&name=900x900"
+    "SPOTIFY_ARTIST_IMG_URL", "https://i.hizliresim.com/hyjkuec.jpg"
 )
 
 SPOTIFY_ALBUM_IMG_URL = getenv(
-    "SPOTIFY_ALBUM_IMG_URL", "https://pbs.twimg.com/media/Gjue3l6XMAAa30h?format=jpg&name=900x900"
+    "SPOTIFY_ALBUM_IMG_URL", "https://i.hizliresim.com/hyjkuec.jpg"
 )
 
 SPOTIFY_PLAYLIST_IMG_URL = getenv(
-    "SPOTIFY_PLAYLIST_IMG_URL", "https://pbs.twimg.com/media/Gjue3l6XMAAa30h?format=jpg&name=900x900"
+    "SPOTIFY_PLAYLIST_IMG_URL", "https://i.hizliresim.com/hyjkuec.jpg"
 )
 
 
