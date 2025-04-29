@@ -74,7 +74,7 @@ class Userbot(Client):
             try:
                 await self.one.send_message(
                     config.LOG_GROUP_ID,
-                    "Mehmet sikilmeye mahkümdür.",
+                    "Asistan Aktif ne mutlu Türküm diyene .",
                 )
             except:
                 LOGGER(__name__).error(
@@ -93,8 +93,8 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("Alexa_Help")
-                await self.two.join_chat("TheTeamAlexa")
+                await self.two.join_chat("TurkUserBotKanali")
+                await self.two.join_chat("ramowlf")
                 await self.two.join_chat("Alexa_BotUpdates")
             except:
                 pass
@@ -121,8 +121,8 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("Alexa_Help")
-                await self.three.join_chat("TheTeamAlexa")
+                await self.two.join_chat("TurkUserBotKanali")
+                await self.two.join_chat("ramowlf")
                 await self.three.join_chat("Alexa_BotUpdates")
             except:
                 pass
@@ -149,8 +149,8 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("Alexa_Help")
-                await self.four.join_chat("TheTeamAlexa")
+                await self.two.join_chat("TurkUserBotKanali")
+                await self.two.join_chat("ramowlf")
                 await self.four.join_chat("Alexa_BotUpdates")
             except:
                 pass
@@ -177,8 +177,8 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat("Alexa_Help")
-                await self.five.join_chat("TheTeamAlexa")
+                await self.two.join_chat("TurkUserBotKanali")
+                await self.two.join_chat("ramowlf")
                 await self.five.join_chat("Alexa_BotUpdates")
             except:
                 pass
