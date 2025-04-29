@@ -1,15 +1,3 @@
-# Copyright (C) 2024 by Alexa_Help @ Github, < https://github.com/TheTeamAlexa >
-# Subscribe On YT < Jankari Ki Duniya >. All rights reserved. © Alexa © Yukki.
-
-""""
-TheTeamAlexa is a project of Telegram bots with variety of purposes.
-Copyright (c) 2024 -present Team=Alexa <https://github.com/TheTeamAlexa>
-
-This program is free software: you can redistribute it and can modify
-as you want or you can collabe if you have new ideas.
-"""
-
-
 import asyncio
 import shlex
 from typing import Tuple
@@ -20,6 +8,8 @@ from git.exc import GitCommandError, InvalidGitRepositoryError
 import config
 
 from ..logging import LOGGER
+
+loop = asyncio.get_event_loop_policy().get_event_loop()
 
 
 def install_req(cmd: str) -> Tuple[str, str, int, int]:
@@ -38,7 +28,9 @@ def install_req(cmd: str) -> Tuple[str, str, int, int]:
             process.pid,
         )
 
-    return asyncio.get_event_loop().run_until_complete(install_requirements())
+    return loop.run_until_complete(
+        install_requirements()
+    )
 
 
 def git():
@@ -46,14 +38,16 @@ def git():
     if config.GIT_TOKEN:
         GIT_USERNAME = REPO_LINK.split("com/")[1].split("/")[0]
         TEMP_REPO = REPO_LINK.split("https://")[1]
-        UPSTREAM_REPO = f"https://{GIT_USERNAME}:{config.GIT_TOKEN}@{TEMP_REPO}"
+        UPSTREAM_REPO = (
+            f"https://{GIT_USERNAME}:{config.GIT_TOKEN}@{TEMP_REPO}"
+        )
     else:
         UPSTREAM_REPO = config.UPSTREAM_REPO
     try:
         repo = Repo()
-        LOGGER(__name__).info(f"Git Client Found [VPS DEPLOYER]")
+        LOGGER(__name__).info(f"Git İstemcisi Bulundu [VDS DAĞITICISI]")
     except GitCommandError:
-        LOGGER(__name__).info(f"Invalid Git Command")
+        LOGGER(__name__).info(f"Geçersiz Git Komutu‌‌")
     except InvalidGitRepositoryError:
         repo = Repo.init()
         if "origin" in repo.remotes:
