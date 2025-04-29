@@ -48,7 +48,7 @@ UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/zerosugar6464/Kumsal
 
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
-GIT_TOKEN = getenv("GIT_TOKEN", "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")
+GIT_TOKEN = getenv("GIT_TOKEN", "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")
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/the_team_kumsal")
 
