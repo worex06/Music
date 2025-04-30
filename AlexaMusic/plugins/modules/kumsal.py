@@ -45,21 +45,16 @@ slm = (
 "**Selamm**",  
 )
 
-Aynur = (
-"**Efendim Dost** 🫢",
-"**Beni mi çağırdıın** 🫠",
-"**Efendimm** ❣️",
-"**He** ❤️",
-"**Aa seni gördüğüme mutlu oldum nasılsın?** 🤓",
-"**Ooo naber yaa ?** 🙄",
-"**Evet benimm** 🫠",
-"**Hahaayt benim buyruuun** ❤️",
-"**Heeevet benim buyruuun**",
-"**Evet canım beni çağırdın**",
-"**Galiba beni çağırdın** ❤️",
-"**Efendim??** ❤️",
-"❤️ **Buyuuur**",
-"**Ben olmasam ne yapacaksınn bee** ❤️",
+Turk = (
+    "**Bozkurtlar ulur, yiğitler yol alır!** 🐺",
+    "**Tanrı Türk'ü korusun ve yüceltsin!** 🔱",
+    "**Ne mutlu Türküm diyene!** 🇹🇷",
+    "**Damarımdaki asil kan oldukça kimseye boyun eğmem!** 🩸",
+    "**Ülkücü ölür ama asla teslim olmaz!** 💀",
+    "**Bir hilal uğruna nice güneşler batar!** 🌙",
+    "**Devlet ebet müddettir!** 🛡️",
+    "**Kurt doğan kuzu olmaz!** 🐺",
+    "**İman varsa imkan vardır!** ✊",
 )
 
 sahip = (
