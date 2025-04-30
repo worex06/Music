@@ -90,7 +90,7 @@ async def gen_thumb(videoid):
         name_font = ImageFont.truetype("assets/font.ttf", 30)
         para = textwrap.wrap(title, width=30)
         j = 0
-        draw.text((5, 5), f"Kumsal music tr", fill="white", font=name_font)
+        draw.text((5, 5), f"Turan Müzik Bot", fill="white", font=name_font)
         draw.text(
             (600, 150),
             "yayın başladı",
@@ -134,7 +134,7 @@ async def gen_thumb(videoid):
         )
         draw.text(
             (600, 550),
-            f"sahibi : rangnar bey",
+            f"Sahip: @ramowlf",
             (255, 255, 255),
             font=arial,
         )
@@ -206,7 +206,7 @@ async def gen_qthumb(videoid):
         name_font = ImageFont.truetype("assets/font.ttf", 30)
         para = textwrap.wrap(title, width=30)
         j = 0
-        draw.text((5, 5), f"kumsal muzik TR", fill="white", font=name_font)
+        draw.text((5, 5), f"Turan Müzik Bot", fill="white", font=name_font)
         draw.text(
             (600, 150),
             "sıraya eklendi",
@@ -250,7 +250,7 @@ async def gen_qthumb(videoid):
         )
         draw.text(
             (600, 550),
-            f"Owner : rangar bey",
+            f"Sahip: @ramowlf",
             (255, 255, 255),
             font=arial,
         )
