@@ -29,3 +29,5 @@ werkzeug
 yt-dlp~=2025.3.31
 https://github.com/KSKOP69/youtube-search-python/archive/ksk.zip
 pyyaml
+pydub
+SpeechRecognition
