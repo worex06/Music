@@ -85,6 +85,14 @@ ramowlf = (
 "**ramazan Öztürk sahibim @ramowlf**",	
 )
 
+ramo = (
+"**o bir bot geliştiricisi @ramowlf**",
+"**Ülkücü sahibim gel @ramowlf**",
+"**🩵 Geliştirici** @ramowlf",
+"**Sahibim @ramowlf 🇹🇷**",
+"**ramazan Öztürk sahibim @ramowlf**",	
+)
+
 nasılsın = (
 "**İyi sen nasılsın?**",
 "**Süperimm sennn**",
