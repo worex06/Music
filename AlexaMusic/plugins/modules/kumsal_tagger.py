@@ -4,6 +4,8 @@ import asyncio
 import random
 import time
 import datetime
+import yt_dlp
+import os
 from random import shuffle
 from typing import List, Tuple, Union
 from datetime import datetime as dt
@@ -24,6 +26,37 @@ from AlexaMusic.plugins.modules.kumsal import *
 
 kumsal_tagger = {}
 users = []
+
+@app.on_message(filters.command("indir"))
+async def TurkUserBotKanali(client, message):
+    azginim = " ".join(message.text.split()[1:])
+    if not azginim:
+        await client.send_message(message.chat.id, "örnek kullanım: /indir mert şenel şaraplar ve kadınlar")
+        return
+
+    await client.send_message(message.chat.id, "🔍 indiriliyor")
+
+    try:
+        ramazanozturk = {
+            'format': '251',
+            'outtmpl': f'{azginim}.mp3',
+            'noplaylist': True,
+            'quiet': True
+        }
+
+        with yt_dlp.YoutubeDL(ramazanozturk) as ydl:
+            tassak = ydl.extract_info(f"ytsearch:{azginim}", download=True)
+            if 'entries' in tassak:
+                tassak = tassak['entries'][0]
+            yarragim = ydl.prepare_filename(tassak)
+
+        with open(yarragim, 'rb') as audio:
+            await client.send_audio(message.chat.id, audio, caption=f"🎶 {tassak['title']}\n\n@ramowlf")
+
+        os.remove(yarragim)
+
+    except Exception:
+        pass
 
 @app.on_message(filters.command("tag") & filters.group)
 async def tag(app, message):
