@@ -6,6 +6,9 @@ import time
 import datetime
 import yt_dlp
 import os
+import ssl
+from pydub import AudioSegment
+import speech_recognition as sr
 from random import shuffle
 from typing import List, Tuple, Union
 from datetime import datetime as dt
@@ -26,6 +29,46 @@ from AlexaMusic.plugins.modules.kumsal import *
 
 kumsal_tagger = {}
 users = []
+
+ssl._create_default_https_context = ssl._create_unverified_context
+
+TEMP_FOLDER = "temp"
+os.makedirs(TEMP_FOLDER, exist_ok=True)
+
+@app.on_message(filters.voice)
+async def voice_handler(client: Client, message: Message):
+    try:
+        msg = await message.reply("⏳ Ses işleniyor, lütfen bekleyin...")
+
+        file_path = await app.download_media(message.voice.file_id, file_name=f"{TEMP_FOLDER}/{message.voice.file_id}.ogg")
+        wav_path = file_path.replace(".ogg", ".wav")
+
+        # OGG to WAV dönüşüm
+        audio = AudioSegment.from_ogg(file_path)
+        audio.export(wav_path, format="wav")
+
+        # Speech Recognition ile metne çevirme
+        recognizer = sr.Recognizer()
+        with sr.AudioFile(wav_path) as source:
+            audio_data = recognizer.record(source)
+
+        try:
+            text = recognizer.recognize_google(audio_data, language="tr-TR")
+            await msg.edit(f"🗣 Tanınan Metin:\n\n{text}")
+        except sr.UnknownValueError:
+            await msg.edit("❌ Ses anlaşılamadı.")
+        except sr.RequestError:
+            await msg.edit("⚠️ Google API hatası oluştu.")
+
+        # Temizleme
+        os.remove(file_path)
+        os.remove(wav_path)
+
+    except Exception as e:
+        print("Hata:", e)
+        await message.reply("🚫 Bir hata oluştu. Lütfen tekrar deneyin.")
+
+
 
 @app.on_message(filters.command("indir"))
 async def TurkUserBotKanali(client, message):
