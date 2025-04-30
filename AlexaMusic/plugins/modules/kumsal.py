@@ -45,7 +45,7 @@ slm = (
 "**Selamm**",  
 )
 
-Turk = (
+turk = (
     "**Bozkurtlar ulur, yiğitler yol alır!** 🐺",
     "**Tanrı Türk'ü korusun ve yüceltsin!** 🔱",
     "**Ne mutlu Türküm diyene!** 🇹🇷",
