@@ -14,37 +14,37 @@
     "env": {
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "28217326",
+        "value": "24127278",
         "required": true
       },
       "API_HASH": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "4800b862b4094e96f42a0b5dc2a558f8",
+        "value": "ad3ac8bc4d7f5c9b9b650588a2411d2e",
         "required": true
       },
       "BOT_TOKEN": {
         "description": "A Bot's token from Botfather",
-        "value": "7592125217:AAGpFCI9if3xNwcydqraXhMhcYR3ZWqoocE",
+        "value": "7703499597:AAEGYvHB1XjLuRiVDuXLRlvTq8kNAJU0ox0",
         "required": true
       },
       "OWNER_ID": {
         "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
-        "value": "7477017395",
+        "value": "8119547604",
         "required": true
       },        
       "MONGO_DB_URI": {
         "description": "Mongo DB URL",
-        "value": "",
+        "value": "mongodb+srv://turan:ramoben200@cluster0.mllmbuy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
         "required": true
       },
       "MUSIC_BOT_NAME": {
         "description": "A name for your Music Bot.",
-        "value": "botmusic",
+        "value": "TURAN MÜZİK",
         "required": true
       },
       "STRING_SESSION": {
         "description": "A Pyrogram Session Get It From  Here @Session_Generator_Robot.",
-        "value": "",
+        "value": "BAFwJy4AP0X_KtDam6AWj9HUoj76NyZuOlOGFul7gRc6VjXpTFEyAmMiee1Z5sayzP_c1jOgtgB9h1d6dfRdvcImXbgWvmrD_-WZidOzoGhU3pCXDeCFgqaeOmMXTO6W-HnKI896aDelLxIWV-mtedqUWv4L1RRVB8bJ0VQI8U-iDH123wQbfynE9nAEnIYx_JQRhreF8N_Qxj4_khugourtEPSr6nqaDDZkEm4cbZNOkF-lzSIJoZ9YKUmcvUf3LGeidn1VFopwnn5lo4QAC6KNLzShqHM-lwra1Yy7GCuT77W7SS6_8GBONjAysTnAByXr1_mGdzTEt_Gk0E8jUSvmio9V8gAAAAFv_XsgAA",
         "required": true
       },
 "STRING2_SESSION": {
@@ -63,12 +63,12 @@
       },
       "UPSTREAM_REPO": {
         "description": "If you dont know this, Leave as it is",
-        "value": "https://github.com/Silahanim21/KUMSAL-MUS-C",
+        "value": "https://github.com/ramowlf/turan",
         "required": true
            },
       "LOG_GROUP_ID": {
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Use only Group. Please don't use Channel ID.",
-        "value": "-1002422638645",
+        "value": "-1001903631091",
         "required": true
       },
       "EXTRA_PLUGINS": {
