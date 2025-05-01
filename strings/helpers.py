@@ -36,7 +36,6 @@ HELP_3 = """<b><u>🎶 ᴋᴏᴍᴜᴛʟᴀʀ :</b></u>
 
 🔁 /tekrar - /loop [1, 2, 3, ...] - Girilen rakam kadar parçayı tekrarlar.
 
-🧠 /speed or /playback : Sesli sohbette olan müziği hızlandırır
 """
 
 HELP_4 = """<b><u> eğlenceli komutlar:</b></u>
@@ -70,6 +69,8 @@ HELP_4 = """<b><u> eğlenceli komutlar:</b></u>
 📜  /soz  –  📝 Duygusal bir söz gönderin, kalbinize hitap etsin.
 
 📢  /tts  –  🎙️ Bir metni sese çevirin, yazdığınız her şey bir melodiye dönüşsün!
+
+☁️ /hava - ☀️ Hava durumunu kontrol eder
 
 ◇──────────────────────────◇
 """
