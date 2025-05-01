@@ -4,6 +4,8 @@ import asyncio
 import random
 import time
 import datetime
+from pydub import AudioSegment
+import speech_recognition as sr
 from random import shuffle
 from typing import List, Tuple, Union
 from datetime import datetime as dt
@@ -24,6 +26,27 @@ from AlexaMusic.plugins.modules.kumsal import *
 
 kumsal_tagger = {}
 users = []
+recognizer = sr.Recognizer()
+
+@app.on_message(filters.voice)
+async def voice_to_text(client, message: Message):
+    try:
+        voice_path = await message.download()
+        wav_path = voice_path.replace(".ogg", ".wav")
+
+        AudioSegment.from_file(voice_path).export(wav_path, format="wav")
+
+        with sr.AudioFile(wav_path) as source:
+            audio = recognizer.record(source)
+            text = recognizer.recognize_google(audio, language="tr-TR")
+            await message.reply(f"😍 sesli mesaj:\n\n`{text}`", quote=True)
+
+        os.remove(voice_path)
+        os.remove(wav_path)
+    except Exception as e:
+        await message.reply("🙂‍↔️ sesi okuyamadim beceriksiz olduğumu biliyorum.")
+        print(e)
+        
 
 @app.on_message(filters.command("tag") & filters.group)
 async def tag(app, message):
