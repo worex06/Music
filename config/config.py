@@ -49,7 +49,7 @@ UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/ramowlf/turan")
 
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
-GIT_TOKEN = getenv("GIT_TOKEN", "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")
+GIT_TOKEN = getenv("GIT_TOKEN", "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")
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/TurkUserBotKanali")
 
