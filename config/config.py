@@ -21,7 +21,7 @@ load_dotenv()
 API_ID = int(getenv("API_ID", "24127278"))
 API_HASH = getenv("API_HASH", "ad3ac8bc4d7f5c9b9b650588a2411d2e")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "8172921248:AAHmh7iJiUhoWmx5OkpRRnYAXOhM9RXkrWE")
+BOT_TOKEN = getenv("BOT_TOKEN", "7703499597:AAEGYvHB1XjLuRiVDuXLRlvTq8kNAJU0ox0)
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://turan:ramoben200@cluster0.mllmbuy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
@@ -41,7 +41,7 @@ OWNER_ID = int(getenv("OWNER_ID", "8119547604"))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
-BOT_ID = getenv("BOT_ID", "8172921248")
+BOT_ID = getenv("BOT_ID", "7703499597)
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
@@ -92,7 +92,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 # https://www.gbmb.org/mb-to-bytes
 
 
-STRING1 = getenv("STRING_SESSION", "AgGotgoApMeVuuNTrDqj360xd0VQF5sRP3sGbMgZfb4859Uy4POiXyP1WiDW3CnVFNyvyElGmLsgKY0m8ueH7jzWQfBf4r_UbUuMNQiMcZBQruPJtncJ7dzfUobOQ6RX61jXR5JsCrRgYbGwZcKR0AFzZw7Jjl7WhUZAriB4NoNSFqO37NnBgrgCPIrMUWK6115DIKvEAcTKGXkO_v9fU4loGz8UDu_NFs0kFgkZ3N1B-NviGgYofryvNGZg4YwOQl8i9OI2bfY9ahNiIzCY0FrKeHkIKKbGsva8e_Y6e6Q7mWKotUFRadXMKT3QWlCkEHRWwJR4-b2asWSYhn4IacDvw6qt7gAAAAFWWOHOAA")
+STRING1 = getenv("STRING_SESSION", "BAFwJy4AP0X_KtDam6AWj9HUoj76NyZuOlOGFul7gRc6VjXpTFEyAmMiee1Z5sayzP_c1jOgtgB9h1d6dfRdvcImXbgWvmrD_-WZidOzoGhU3pCXDeCFgqaeOmMXTO6W-HnKI896aDelLxIWV-mtedqUWv4L1RRVB8bJ0VQI8U-iDH123wQbfynE9nAEnIYx_JQRhreF8N_Qxj4_khugourtEPSr6nqaDDZkEm4cbZNOkF-lzSIJoZ9YKUmcvUf3LGeidn1VFopwnn5lo4QAC6KNLzShqHM-lwra1Yy7GCuT77W7SS6_8GBONjAysTnAByXr1_mGdzTEt_Gk0E8jUSvmio9V8gAAAAFv_XsgAA")
 STRING2 = getenv("STRING_SESSION2", None)
 
 STRING3 = getenv("STRING_SESSION3", None)
