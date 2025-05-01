@@ -65,9 +65,9 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("Alexa_Help")
-                await self.one.join_chat("TheTeamAlexa")
-                await self.one.join_chat("Alexa_BotUpdates")
+                await self.one.join_chat("ramowlf")
+                await self.one.join_chat("TurkUserBotKanali")
+                await self.one.join_chat("Fovaris")
             except:
                 pass
             assistants.append(1)
@@ -95,7 +95,7 @@ class Userbot(Client):
             try:
                 await self.two.join_chat("TurkUserBotKanali")
                 await self.two.join_chat("ramowlf")
-                await self.two.join_chat("Alexa_BotUpdates")
+                await self.two.join_chat("Fovaris")
             except:
                 pass
             assistants.append(2)
@@ -123,7 +123,7 @@ class Userbot(Client):
             try:
                 await self.two.join_chat("TurkUserBotKanali")
                 await self.two.join_chat("ramowlf")
-                await self.three.join_chat("Alexa_BotUpdates")
+                await self.three.join_chat("Fovaris")
             except:
                 pass
             assistants.append(3)
@@ -151,7 +151,7 @@ class Userbot(Client):
             try:
                 await self.two.join_chat("TurkUserBotKanali")
                 await self.two.join_chat("ramowlf")
-                await self.four.join_chat("Alexa_BotUpdates")
+                await self.four.join_chat("Fovaris")
             except:
                 pass
             assistants.append(4)
@@ -179,7 +179,7 @@ class Userbot(Client):
             try:
                 await self.two.join_chat("TurkUserBotKanali")
                 await self.two.join_chat("ramowlf")
-                await self.five.join_chat("Alexa_BotUpdates")
+                await self.five.join_chat("Fovaris")
             except:
                 pass
             assistants.append(5)
