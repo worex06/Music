@@ -69,6 +69,10 @@ HELP_4 = """<b><u> eğlenceli komutlar:</b></u>
 
 ☁️ /hava - ☀️ Hava durumunu kontrol eder
 
+🫡 /q - metini çıkartmaya dönüştürür
+
+🤓 /r - metini çıkartmaya dönüştürür 
+
 ◇──────────────────────────◇
 """
 
