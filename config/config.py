@@ -41,7 +41,7 @@ OWNER_ID = int(getenv("OWNER_ID", "8119547604"))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
-BOT_ID = getenv("BOT_ID", "7703499597)
+BOT_ID = getenv("BOT_ID", "7703499597")
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
