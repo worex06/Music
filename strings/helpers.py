@@ -21,13 +21,6 @@ HELP_2 = """<b><u>ᴋᴏᴍᴜᴛʟᴀʀ :</b></u>
 
 🎶 /oynat /voynat /play /vplay - Şarkı veya video oynatımı başlatır.  
 
-⏩ /ileri [saniye] - Şarkıyı belirttiğiniz süre kadar ileri alır.
-
-🔀 /karistir - /shuffle - Sıradaki parçaları karışık oynatır.
-
-🔁 /tekrar - /loop [1, 2, 3, ...] - Girilen rakam kadar parçayı tekrarlar.
-
-
 🗒️ Daha fazla komut için yardım menüsünü kullanabilirsiniz!
 ────┈┈┈┄┄╌╌╌╌┄┄────┈┈┈┄┄╌╌╌╌┈┈┈────
 """
