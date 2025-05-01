@@ -17,8 +17,16 @@ HELP_2 = """<b><u>ᴋᴏᴍᴜᴛʟᴀʀ :</b></u>
 
 ╔─━━━░...𝚃𝚄𝚁𝙰𝙽 𝙼𝚄𝚉𝙸𝙺 🇹🇷....░━━━─╗
 
-▪️ 🎥 /voynat - Video oynatır.  
-▪️ 🎶 /oynat /voynat /play /vplay - Şarkı veya video oynatımı başlatır.  
+🎥 /voynat - Video oynatır.  
+
+🎶 /oynat /voynat /play /vplay - Şarkı veya video oynatımı başlatır.  
+
+⏩ /ileri [saniye] - Şarkıyı belirttiğiniz süre kadar ileri alır.
+
+🔀 /karistir - /shuffle - Sıradaki parçaları karışık oynatır.
+
+🔁 /tekrar - /loop [1, 2, 3, ...] - Girilen rakam kadar parçayı tekrarlar.
+
 
 🗒️ Daha fazla komut için yardım menüsünü kullanabilirsiniz!
 ────┈┈┈┄┄╌╌╌╌┄┄────┈┈┈┄┄╌╌╌╌┈┈┈────
@@ -28,13 +36,9 @@ HELP_3 = """<b><u>🎶 ᴋᴏᴍᴜᴛʟᴀʀ :</b></u>
 
 ╔─━━━░...𝚃𝚄𝚁𝙰𝙽 𝙼𝚄𝚉𝙸𝙺 🇹🇷....░━━━─╗
 
-🎵 /indir [şarkı adı/YouTube linki] - İstediğiniz şarkıyı MP3 olarak indirir.
+❤️‍🩹 BURAYA YENİ ŞEYLER EKLENECEK ❤️‍🩹
 
-⏩ /ileri [saniye] - Şarkıyı belirttiğiniz süre kadar ileri alır.
-
-🔀 /karistir - /shuffle - Sıradaki parçaları karışık oynatır.
-
-🔁 /tekrar - /loop [1, 2, 3, ...] - Girilen rakam kadar parçayı tekrarlar.
+🎧 Sesli mesajları metin haline çeviririm 
 
 """
 
