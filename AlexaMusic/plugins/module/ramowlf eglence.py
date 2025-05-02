@@ -22,7 +22,7 @@ from pyrogram.types import (
 )
 from AlexaMusic import app
 from config import LOG_GROUP_ID, OWNER_ID
-from AlexaMusic.plugins.modules.kumsal import *
+from AlexaMusic.plugins.modules.ramowlf import *
 
 users = []
 recognizer = sr.Recognizer()
@@ -225,7 +225,7 @@ async def chatModeHandler(bot: app, msg: Message):
 
     reply = None
 
-    if text.startswith("turk"): # * Mesaj buse ile başlıyorsa cevap veriyoruz
+    if text.startswith("türk"): # * Mesaj buse ile başlıyorsa cevap veriyoruz
         reply = random.choice(turk)
         await asyncio.sleep(0.06)
 
