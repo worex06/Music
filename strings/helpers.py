@@ -41,8 +41,6 @@ HELP_4 = """<b><u> eğlenceli komutlar:</b></u>
 
 ❤️‍🔥  /eros | eros  –  💘 Aşkı ve tutkunun simgesi, Eros oku atar. Hazır mısın? 
 
-📝  /burc  –  🔮 Burçlarınıza dair gizemli yorumlar yaparım, yıldızlar ne diyor?
-
 ✨ /mani  –  🌟 Bir mani söylerim, ruhunuza dokunsun.
 
 👋  /slap  –  💥 Birini tokatlayın, ama dikkat! Şaka yapıyoruz.
@@ -63,10 +61,6 @@ HELP_4 = """<b><u> eğlenceli komutlar:</b></u>
 
 🤣  /saka  –  😜 Bir şaka gönderin, gülmeye hazır olun!
 
-📜  /soz  –  📝 Duygusal bir söz gönderin, kalbinize hitap etsin.
-
-📢  /tts  –  🎙️ Bir metni sese çevirin, yazdığınız her şey bir melodiye dönüşsün!
-
 ☁️ /hava - ☀️ Hava durumunu kontrol eder
 
 🫡 /q - metini çıkartmaya dönüştürür
@@ -77,28 +71,11 @@ HELP_4 = """<b><u> eğlenceli komutlar:</b></u>
 """
 
 
-HELP_7 = """<b><u>etiket komutlar :</b></u>
+HELP_7 = """<b><u>❤️‍🔥 Repo & Destek :</b></u>
 ╔─━━━░...𝚃𝚄𝚁𝙰𝙽 𝙼𝚄𝚉𝙸𝙺 🇹🇷.....░━━━─╗
 
+❤️‍🔥 Repo: https://github.com/ramowlf/turan
 
-🏷️ /tag - Tek tek etiketler.
-
-🏷️ /utag - Çoklu etiketler.
-
-🏷️ /etag - Emoji ile etiketler.
-
-🏷️ /igtag - iyi geceler mesajları ile etiketler.
-
-🏷️ /guntag - günaydın mesajları ile etiketler.
-
-🏷️ /btag - Bayrak ile etiketler.
-
-🏷️ /sorutag - Sorularla etiketler.
-
-🏷️ /ktag - Karakter ile etiketler.
-
-🏷️ /stag - Sözlerle etiketler.
-
-🏷️ /stop - Etiket işlemini bitirir.
+💬 Destek:https://t.me/BotDuyuruKanali
 ≪━─━─━──━─━─━─━─━─━──━─━─━─━━─━≫
 """
