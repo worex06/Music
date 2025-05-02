@@ -1,3 +1,5 @@
+# Ufak bir gönderme yapmak istiyorum gereksiz şeyleri eklemişsiniz müzik botu müziklikten çıkmış saksoya yatacak
+
 import random
 
 galp = (
