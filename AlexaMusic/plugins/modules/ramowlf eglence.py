@@ -226,7 +226,7 @@ async def chatModeHandler(bot: app, msg: Message):
     reply = None
 
     if text.startswith("türk"): # * Mesaj buse ile başlıyorsa cevap veriyoruz
-        reply = random.choice(turk)
+        reply = random.choice(türk)
         await asyncio.sleep(0.06)
 
     elif kontrol(["selam", "slm", "sa", "selamlar", "selamm"], text): # * Selam yazısı metnin içinde varsa cevap veriyoruz
@@ -246,7 +246,7 @@ async def chatModeHandler(bot: app, msg: Message):
         await asyncio.sleep(0.06)  
          
     elif kontrol(["ramo"], text): # * Selam yazısı metnin içinde varsa cevap veriyoruz
-        reply = random.choice(pelin)
+        reply = random.choice(ramo)
         await asyncio.sleep(0.06)        
                  
     elif kontrol(["nasılsın"], text): # * Selam yazısı metnin içinde varsa cevap veriyoruz
