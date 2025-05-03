@@ -229,7 +229,7 @@ queue_3 : "<u>**sıʀᴀᴅᴀᴋɪ ᴘᴀʀᴄ̧ᴀʟᴀʀ:</u>**  [sɪʀᴀᴅ
 queue_4 : "⏳ sɪʀᴀʏᴀ ᴇᴋʟᴇɴᴅɪ **#{0}\n\n🔮 ʙᴀşʟıᴋ:** {1}\n**⏱ sᴜ̈ʀᴇ:** {2}\n👉 **ᴛᴀʟᴇᴘ ᴇᴅᴇɴ: ⇢ {3}**"
 queue_5 : "sıʀᴀᴅᴀ sᴀᴅᴇᴄᴇ ʙɪʀ ᴘᴀʀᴄ̧ᴀ ᴠᴀʀ, ʟᴜ̈ᴛғᴇɴ ʙɪʀᴀᴢ ᴅᴀʜᴀ ᴘᴀʀᴄ̧ᴀ ᴇᴋʟᴇʏɪɴ. 🎧"
 
-stream_1 : "┏━━━━━━━━━━━━━━━━⧫\n┠ 🇹🇷 **➙ MÜZİK BAŞLADI°**\n┗━━━━━━━━━━━━━━━━⧫\n◆\n **╰🔎 Şarkı:** ⇢ {0}\n** ⏳ SÜRE:** ⇢ {2}\n** 😘 TALEP EDEN ⇢**: {3} ~"
+stream_1 : "┏━━━━━━━━━━━━━━━━⧫\n┠ 🇹🇷 **➙ MÜZİK BAŞLADI°**\n┗━━━━━━━━━━━━━━━━⧫\n◆\n **🔎 Şarkı:** ⇢ {0}\n** ⏳ SÜRE:** ⇢ {2}\n** 😘 TALEP EDEN ⇢**: {3} ~"
 stream_2 : "┏━━━━━━━━━━━━━━━━⧫\n┠ 🇹🇷 **➙ MÜZİK BAŞLADI°**\n┗━━━━━━━━━━━━━━━━⧫\n◆\n ╰ 😘 TALEP EDEN » {0} ~"
 stream_3 : "┏━━━━━━━━━━━━━━━━⧫\n┠ 🇹🇷 **➙ MÜZİK BAŞLADI°**\n┗━━━━━━━━━━━━━━━━⧫\n◆\n ╰ 🔎 Şarkı » `{0}` ~\n◆ \n ╰ ⏳ SÜRE » `{1}` ~\n◆ \n ╰ 😘 TALEP EDEN » {2} ~"
 stream_4 : "┏━━━━━━━━━━━━━━━━⧫\n┠ 🇹🇷 **➙ MÜZİK BAŞLADI°**\n┗━━━━━━━━━━━━━━━━⧫\n◆\n ╰ 🔎 Şarkı » [{0}]({1}) ~\n◆ \n ╰ ⏳ SÜRE » {1} ~\n◆ \n ╰ 😘 TALEP EDEN » {2} ~"
@@ -249,10 +249,10 @@ L_B_1 : "şᴀʀᴋı sᴏ̈ᴢʟᴇʀɪɴɪ şɪᴍᴅɪ ᴋᴏɴᴛʀᴏʟ �
 
 S_B_1 : "🇹🇷 Turan Müzik Komutlari"
 S_B_2 : "🤓 Ayarlar 🤓"
-S_B_3 : "🩵 Geliştirici"
+S_B_3 : "🎗️ Yardımcı"
 S_B_4 : "🇹🇷 Kanalımız"
 S_B_5 : "💬 Beni Gruba Ekle"
-S_B_6 : "🩵 geliştirici"
+S_B_6 : "🩵 Geliştirici"
 S_B_7 : "👨‍💻 bot sahibi"
 S_B_8 : "🇹🇷 Turan Müzik Komutlari"
 
