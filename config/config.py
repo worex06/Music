@@ -49,7 +49,7 @@ UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/ramowlf/turan")
 
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
-GIT_TOKEN = getenv("GIT_TOKEN", "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")
+GIT_TOKEN = getenv("GIT_TOKEN", "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")
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/TurkUserBotKanali")
 
@@ -92,7 +92,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 # https://www.gbmb.org/mb-to-bytes
 
 
-STRING1 = getenv("STRING_SESSION", "BAFwJy4AP0X_KtDam6AWj9HUoj76NyZuOlOGFul7gRc6VjXpTFEyAmMiee1Z5sayzP_c1jOgtgB9h1d6dfRdvcImXbgWvmrD_-WZidOzoGhU3pCXDeCFgqaeOmMXTO6W-HnKI896aDelLxIWV-mtedqUWv4L1RRVB8bJ0VQI8U-iDH123wQbfynE9nAEnIYx_JQRhreF8N_Qxj4_khugourtEPSr6nqaDDZkEm4cbZNOkF-lzSIJoZ9YKUmcvUf3LGeidn1VFopwnn5lo4QAC6KNLzShqHM-lwra1Yy7GCuT77W7SS6_8GBONjAysTnAByXr1_mGdzTEt_Gk0E8jUSvmio9V8gAAAAFv_XsgAA")
+STRING1 = getenv("STRING_SESSION", "BAFwJy4ALlhf4I6q3LdH1QZ-23ZlaPpwN2Q_mdseaBabsifeRKj2BX4Iog3HC8ktiZA_bpEYA6VaVx0nmICC0EB6t9jhMeDTJJ7nMiQMpHGYQcrrI1T3oRNk_MWk1c85-Cg_3yfWSxGC_2pcCPdCDog6a4rMBgFlVrUG1CwOd694p4Ebw33wgKtdB2fEaFARlc25fq2Kf_JpNL6dtFwiC4Fv3_Ykx-ecoB8cr1RCd7nZqi1M4_8IqMWE7S_Dr6bUd9B1Z4Ng_ulOnM_WEXEZ0Dr7EtDtFPoXSfdrakbbWBl2OeYnlw-genAhh3PlGSvXbOejhx4N-dMp1LDpilM2AZimJHuC2AAAAAFv_XsgAA")
 STRING2 = getenv("STRING_SESSION2", None)
 
 STRING3 = getenv("STRING_SESSION3", None)
